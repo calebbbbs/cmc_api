@@ -79,9 +79,9 @@ class CMC:
 
 cmc = CMC(secrets_1.API_KEY)
 
-# pp(cmc.getAllCoins())
-# pp(cmc.getID('BTC'))
-# pp(cmc.getPrice('ETH'))
-# pp(cmc.getLatestListingPrices())
-# pp(cmc.getMarketCap('BTC'))
-pp(cmc.get90DayMove('ETH'))
+# # pp(cmc.getAllCoins())
+# # pp(cmc.getID('BTC'))
+# # pp(cmc.getPrice('ETH'))
+# # pp(cmc.getLatestListingPrices())
+# # pp(cmc.getMarketCap('BTC'))
+# pp(cmc.get90DayMove('ETH'))
