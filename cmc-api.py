@@ -15,7 +15,7 @@ r = requests.get(url, headers=headers)
 class CMC:
 
     def __init__(self, token):
-        self.apiurl = "https://pro-api.coinmarketcap.com"
+        self.apiurl = url
         self.headers = {
             'Accepts': 'application/json',
             'X-CMC_PRO_API_KEY': token,
@@ -84,4 +84,4 @@ cmc = CMC(secrets_1.API_KEY)
 # pp(cmc.getPrice('ETH'))
 # pp(cmc.getLatestListingPrices())
 # pp(cmc.getMarketCap('BTC'))
-# pp(cmc.get90DayMove('ETH'))
+pp(cmc.get90DayMove('ETH'))
